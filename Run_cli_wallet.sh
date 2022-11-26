@@ -1,2 +1,2 @@
 cd monero*
-./*.Appimage
+./monero-wallet-cli
