@@ -18,4 +18,4 @@ sleep 1
 echo Start!
 cd ..
 cd xmrig*
-sudo ./xmrig -o $pool -u $wallet -t $threads -p $rigid --coin monero -a randomx --cpu-priority=5 --cpu-no-yield --huge-pages-jit --asm=auto --randomx-1gb-pages
+sudo ./xmrig -o $pool -u $wallet -t $threads -p $rigid --coin monero -a randomx --cpu-priority=5 --cpu-no-yield --cpu-memory-pool=-1  --title XEM_Miner
