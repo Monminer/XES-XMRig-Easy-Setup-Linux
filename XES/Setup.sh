@@ -1,6 +1,6 @@
 echo Welcome to XEM!
 echo Installing required things....
-sudo apt install jq cpufrequtils -y
+sudo apt install jq cpufrequtils git -y
 echo Cleaning up...
 mkdir tmp
 mv Setup.sh tmp
